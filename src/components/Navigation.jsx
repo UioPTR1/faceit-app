@@ -16,19 +16,19 @@ const Navigation = () => {
           <Logo />
         </Link>
       </li>
-      <Link style={navStyle} to="/lior">
+      <Link style={navStyle} to="/faceit-app/lior">
         <li className="link">ליאור</li>
       </Link>
-      <Link style={navStyle} to="/hezi">
+      <Link style={navStyle} to="/faceit-app/hezi">
         <li className="link">חזי</li>
       </Link>
-      <Link style={navStyle} to="/ayra">
+      <Link style={navStyle} to="/faceit-app/ayra">
         <li className="link">איירה</li>
       </Link>
-      <Link style={navStyle} to="/itay">
+      <Link style={navStyle} to="/faceit-app/itay">
         <li className="link">איתי</li>
       </Link>
-      <Link style={navStyle} to="/lavan">
+      <Link style={navStyle} to="/faceit-app/lavan">
         <li className="link">לבן</li>
       </Link>
     </ul>
