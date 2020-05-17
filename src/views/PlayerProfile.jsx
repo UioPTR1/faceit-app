@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import instance from "../axiosDefaults";
 
 const PlayerProfile = (id, nickname) => {
