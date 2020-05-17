@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/faceit-app/static/css/main.a903b54c.chunk.css",
-    "main.js": "/faceit-app/static/js/main.627f6d0e.chunk.js",
-    "main.js.map": "/faceit-app/static/js/main.627f6d0e.chunk.js.map",
-    "runtime-main.js": "/faceit-app/static/js/runtime-main.daacf8d0.js",
-    "runtime-main.js.map": "/faceit-app/static/js/runtime-main.daacf8d0.js.map",
-    "static/js/2.2c8b5fa6.chunk.js": "/faceit-app/static/js/2.2c8b5fa6.chunk.js",
-    "static/js/2.2c8b5fa6.chunk.js.map": "/faceit-app/static/js/2.2c8b5fa6.chunk.js.map",
+    "main.css": "/faceit-app/static/css/main.74c9ebfe.chunk.css",
+    "main.js": "/faceit-app/static/js/main.347ddbe0.chunk.js",
+    "main.js.map": "/faceit-app/static/js/main.347ddbe0.chunk.js.map",
+    "runtime-main.js": "/faceit-app/static/js/runtime-main.23d896aa.js",
+    "runtime-main.js.map": "/faceit-app/static/js/runtime-main.23d896aa.js.map",
+    "static/js/2.0c0a1949.chunk.js": "/faceit-app/static/js/2.0c0a1949.chunk.js",
+    "static/js/2.0c0a1949.chunk.js.map": "/faceit-app/static/js/2.0c0a1949.chunk.js.map",
+    "static/js/3.a12a9f82.chunk.js": "/faceit-app/static/js/3.a12a9f82.chunk.js",
+    "static/js/3.a12a9f82.chunk.js.map": "/faceit-app/static/js/3.a12a9f82.chunk.js.map",
+    "static/js/4.1d0ddbcf.chunk.js": "/faceit-app/static/js/4.1d0ddbcf.chunk.js",
+    "static/js/4.1d0ddbcf.chunk.js.map": "/faceit-app/static/js/4.1d0ddbcf.chunk.js.map",
     "index.html": "/faceit-app/index.html",
-    "precache-manifest.289bf0cf554e1d4c5a7d53f6ac82f472.js": "/faceit-app/precache-manifest.289bf0cf554e1d4c5a7d53f6ac82f472.js",
+    "precache-manifest.a867d5a49c5f47d28bd02c34fad17ea9.js": "/faceit-app/precache-manifest.a867d5a49c5f47d28bd02c34fad17ea9.js",
     "service-worker.js": "/faceit-app/service-worker.js",
-    "static/css/main.a903b54c.chunk.css.map": "/faceit-app/static/css/main.a903b54c.chunk.css.map",
-    "static/js/2.2c8b5fa6.chunk.js.LICENSE.txt": "/faceit-app/static/js/2.2c8b5fa6.chunk.js.LICENSE.txt"
+    "static/css/main.74c9ebfe.chunk.css.map": "/faceit-app/static/css/main.74c9ebfe.chunk.css.map",
+    "static/js/3.a12a9f82.chunk.js.LICENSE.txt": "/faceit-app/static/js/3.a12a9f82.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.daacf8d0.js",
-    "static/js/2.2c8b5fa6.chunk.js",
-    "static/css/main.a903b54c.chunk.css",
-    "static/js/main.627f6d0e.chunk.js"
+    "static/js/runtime-main.23d896aa.js",
+    "static/js/3.a12a9f82.chunk.js",
+    "static/css/main.74c9ebfe.chunk.css",
+    "static/js/main.347ddbe0.chunk.js"
   ]
 }
