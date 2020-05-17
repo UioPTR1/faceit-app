@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/faceit-app/static/css/main.74c9ebfe.chunk.css",
-    "main.js": "/faceit-app/static/js/main.b8a72ec7.chunk.js",
-    "main.js.map": "/faceit-app/static/js/main.b8a72ec7.chunk.js.map",
+    "main.js": "/faceit-app/static/js/main.0081183e.chunk.js",
+    "main.js.map": "/faceit-app/static/js/main.0081183e.chunk.js.map",
     "runtime-main.js": "/faceit-app/static/js/runtime-main.23d896aa.js",
     "runtime-main.js.map": "/faceit-app/static/js/runtime-main.23d896aa.js.map",
     "static/js/2.0c0a1949.chunk.js": "/faceit-app/static/js/2.0c0a1949.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/4.1d0ddbcf.chunk.js": "/faceit-app/static/js/4.1d0ddbcf.chunk.js",
     "static/js/4.1d0ddbcf.chunk.js.map": "/faceit-app/static/js/4.1d0ddbcf.chunk.js.map",
     "index.html": "/faceit-app/index.html",
-    "precache-manifest.d6896ae0b71a8fc1eb4b902caea5a237.js": "/faceit-app/precache-manifest.d6896ae0b71a8fc1eb4b902caea5a237.js",
+    "precache-manifest.8cfe612c09b4cec0f8aaacf51b302f21.js": "/faceit-app/precache-manifest.8cfe612c09b4cec0f8aaacf51b302f21.js",
     "service-worker.js": "/faceit-app/service-worker.js",
     "static/css/main.74c9ebfe.chunk.css.map": "/faceit-app/static/css/main.74c9ebfe.chunk.css.map",
     "static/js/3.a12a9f82.chunk.js.LICENSE.txt": "/faceit-app/static/js/3.a12a9f82.chunk.js.LICENSE.txt"
@@ -21,6 +21,6 @@
     "static/js/runtime-main.23d896aa.js",
     "static/js/3.a12a9f82.chunk.js",
     "static/css/main.74c9ebfe.chunk.css",
-    "static/js/main.b8a72ec7.chunk.js"
+    "static/js/main.0081183e.chunk.js"
   ]
 }
