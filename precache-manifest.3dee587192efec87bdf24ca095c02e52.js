@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "629db344d78d7fb42da50aba033fcfa2",
+    "revision": "7841008a4b92c761ac3fcd2dfc3fe75b",
     "url": "/faceit-app/index.html"
   },
   {
-    "revision": "bce7361e42bd3d554f05",
+    "revision": "39809e1860ebd78cb3a6",
     "url": "/faceit-app/static/css/main.74c9ebfe.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/faceit-app/static/js/4.1d0ddbcf.chunk.js"
   },
   {
-    "revision": "bce7361e42bd3d554f05",
-    "url": "/faceit-app/static/js/main.347ddbe0.chunk.js"
+    "revision": "39809e1860ebd78cb3a6",
+    "url": "/faceit-app/static/js/main.7374c214.chunk.js"
   },
   {
     "revision": "7b7c6ff2a4519846b6a6",
