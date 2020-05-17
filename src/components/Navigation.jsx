@@ -12,7 +12,7 @@ const Navigation = () => {
   return (
     <ul className="navbar">
       <li>
-        <Link style={navStyle} to="/">
+        <Link style={navStyle} to="/faceit-app/">
           <Logo />
         </Link>
       </li>

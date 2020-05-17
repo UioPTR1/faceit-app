@@ -12,13 +12,13 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/" component={Home} exact />
+          <Route path="/faceit-app/" component={Home} exact />
           <Suspense fallback={<div>טוען...</div>}>
-            <Route path="/lior" component={PlayerProfile} ex act />
-            <Route path="/hezi" component={PlayerProfile} exact />
-            <Route path="/ayra" component={PlayerProfile} exact />
-            <Route path="/itay" component={PlayerProfile} exact />
-            <Route path="/lavan" component={PlayerProfile} exact />
+            <Route path="faceit-app//lior" component={PlayerProfile} ex act />
+            <Route path="faceit-app//hezi" component={PlayerProfile} exact />
+            <Route path="faceit-app//ayra" component={PlayerProfile} exact />
+            <Route path="faceit-app//itay" component={PlayerProfile} exact />
+            <Route path="faceit-app//lavan" component={PlayerProfile} exact />
           </Suspense>
         </Switch>
         {/* <Footer/> */}
