@@ -1,32 +1,37 @@
 import React from "react";
-import instance from "../axiosDefaults";
+import { useParams } from "react-router-dom";
+import PlayerData from "../components/PlayerData";
+import IDS from "../playerIDS";
 
-const PlayerProfile = (id, nickname) => {
-  let [playerData, setData] = React.useState(null);
+const PlayerProfile = () => {
+  const playerName = useParams();
+  let id;
 
-  const fetchLiorData = async () => {
-    const request = await instance.get(
-      "/players/cd8a3937-a6b5-4972-8d0b-42c790ff3132/stats/csgo"
-    );
-    console.log(request.data);
-    
-    return request.data;
-  };
+  switch (playerName.name) {
+    case "lior":
+      id = IDS.liorID;
+      break;
+    case "itay":
+      id = IDS.itayID;
+      break;
+    case "hezi":
+      id = IDS.heziID;
+      break;
+    case "ayra":
+      id = IDS.ayraID;
+      break;
+    case "lavan":
+      id = IDS.lavanID;
+      break;
+    default:
+      id = IDS.liorID;
+      break;
+  }
 
-  React.useEffect(() => {
-    fetchLiorData().then((data) => {
-      setData(data);
-    });
-  }, []);
-
-  return playerData == null ? (
-    "no data"
-  ) : (
+  return (
     <div>
-      <h1>Lior</h1>
-      <p>Average HS percentage: {playerData.lifetime["Average Headshots %"]}%</p>
-      <p>Average K/D Ratio: {playerData.lifetime["Average K/D Ratio"]}</p>
-      <p>Current Win Streak: {playerData.lifetime["Current Win Streak"]}</p>
+      <h1>{playerName.name}</h1>
+      <PlayerData id={id} />
     </div>
   );
 };

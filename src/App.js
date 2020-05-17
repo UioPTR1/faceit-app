@@ -7,6 +7,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const PlayerProfile = lazy(() => import("./views/PlayerProfile"));
 
 function App() {
+  // let names = {
+  //   lior: "Lior",
+  //   hezi: "Hezi",
+  //   ayra: "Ayra",
+  //   itay: "Itay",
+  //   lavan: "Lavan"
+  // };
+
   return (
     <div className="App">
       <Router>
@@ -14,11 +22,7 @@ function App() {
         <Switch>
           <Route path="/faceit-app/" component={Home} exact />
           <Suspense fallback={<div>טוען...</div>}>
-            <Route path="/faceit-app/lior" component={PlayerProfile} exact />
-            <Route path="/faceit-app/hezi" component={PlayerProfile} exact />
-            <Route path="/faceit-app/ayra" component={PlayerProfile} exact />
-            <Route path="/faceit-app/itay" component={PlayerProfile} exact />
-            <Route path="/faceit-app/lavan" component={PlayerProfile} exact />
+            <Route path="/faceit-app/:name" component={PlayerProfile} exact />
           </Suspense>
         </Switch>
         {/* <Footer/> */}
