@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/faceit-app-jsx/static/css/main.5f361e03.chunk.css",
+    "main.js": "/faceit-app-jsx/static/js/main.5ec8eb51.chunk.js",
+    "main.js.map": "/faceit-app-jsx/static/js/main.5ec8eb51.chunk.js.map",
+    "runtime-main.js": "/faceit-app-jsx/static/js/runtime-main.1b38ca43.js",
+    "runtime-main.js.map": "/faceit-app-jsx/static/js/runtime-main.1b38ca43.js.map",
+    "static/js/2.e958a0a6.chunk.js": "/faceit-app-jsx/static/js/2.e958a0a6.chunk.js",
+    "static/js/2.e958a0a6.chunk.js.map": "/faceit-app-jsx/static/js/2.e958a0a6.chunk.js.map",
+    "index.html": "/faceit-app-jsx/index.html",
+    "precache-manifest.469f62101d2dec956a8a45842474d638.js": "/faceit-app-jsx/precache-manifest.469f62101d2dec956a8a45842474d638.js",
+    "service-worker.js": "/faceit-app-jsx/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/faceit-app-jsx/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.e958a0a6.chunk.js.LICENSE.txt": "/faceit-app-jsx/static/js/2.e958a0a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b38ca43.js",
+    "static/js/2.e958a0a6.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.5ec8eb51.chunk.js"
+  ]
+}
