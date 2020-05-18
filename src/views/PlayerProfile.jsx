@@ -23,6 +23,9 @@ const PlayerProfile = () => {
     case "lavan":
       id = IDS.lavanID;
       break;
+      case "ariel":
+      id = IDS.arielID;
+      break;
     default:
       id = IDS.liorID;
       break;
