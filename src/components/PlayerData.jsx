@@ -30,6 +30,8 @@ const PlayerData = (id) => {
       </p>
       <p>Average K/D Ratio: {playerData.lifetime["Average K/D Ratio"]}</p>
       <p>Current Win Streak: {playerData.lifetime["Current Win Streak"]}</p>
+      <p>Winrate: {playerData.lifetime["Win Rate %"]}%</p>
+      <p>Matches played: {playerData.lifetime.Matches}</p>
     </div>
   );
 };

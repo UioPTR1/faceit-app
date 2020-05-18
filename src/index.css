@@ -61,3 +61,13 @@ h2 {
   background: var(--bg-third-color);
   transition-duration: 0.5s;
 }
+
+@media screen and (max-width: 1050px) {
+  li {
+    float: none;
+  }
+  .f {
+    float: none;
+    text-align: center;
+  }
+}

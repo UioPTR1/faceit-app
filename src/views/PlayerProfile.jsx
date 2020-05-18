@@ -23,7 +23,7 @@ const PlayerProfile = () => {
     case "lavan":
       id = IDS.lavanID;
       break;
-      case "ariel":
+    case "ariel":
       id = IDS.arielID;
       break;
     default:
@@ -33,7 +33,10 @@ const PlayerProfile = () => {
 
   return (
     <div>
-      <h1>{playerName.name}</h1>
+      <h1>
+        {playerName.name.slice(0, 1).toUpperCase() +
+          playerName.name.substring(1)}
+      </h1>
       <PlayerData id={id} />
     </div>
   );
