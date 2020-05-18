@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e04f8146ddb1764ad7df71ba49379bfe",
+    "revision": "4b4ec0a4a9d24166cff6500af880befe",
     "url": "/faceit-app/index.html"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/faceit-app/static/js/3.f42ea65b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "684b9afa30213cdf5745",
-    "url": "/faceit-app/static/js/4.98a8cd38.chunk.js"
+    "revision": "f339c5a33f0b00588801",
+    "url": "/faceit-app/static/js/4.2159ae42.chunk.js"
   },
   {
     "revision": "c8f52ad2216443c7338d",
     "url": "/faceit-app/static/js/main.1203b740.chunk.js"
   },
   {
-    "revision": "1341624919561a10d413",
-    "url": "/faceit-app/static/js/runtime-main.3c4afbf5.js"
+    "revision": "bb8eb36f782f32bf89d5",
+    "url": "/faceit-app/static/js/runtime-main.61e5f0b6.js"
   }
 ]);
