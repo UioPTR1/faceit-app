@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e026ac2e39be357a313ac806d9f16f80",
+    "revision": "e04f8146ddb1764ad7df71ba49379bfe",
     "url": "/faceit-app/index.html"
   },
   {
-    "revision": "fcea196007b0738f398e",
-    "url": "/faceit-app/static/css/main.74c9ebfe.chunk.css"
+    "revision": "c8f52ad2216443c7338d",
+    "url": "/faceit-app/static/css/main.22eea594.chunk.css"
   },
   {
     "revision": "6d5a86ac7520785bd57c",
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/faceit-app/static/js/3.f42ea65b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5427b743f6d8a9af4eb",
-    "url": "/faceit-app/static/js/4.b911e3a9.chunk.js"
+    "revision": "684b9afa30213cdf5745",
+    "url": "/faceit-app/static/js/4.98a8cd38.chunk.js"
   },
   {
-    "revision": "fcea196007b0738f398e",
-    "url": "/faceit-app/static/js/main.03032e50.chunk.js"
+    "revision": "c8f52ad2216443c7338d",
+    "url": "/faceit-app/static/js/main.1203b740.chunk.js"
   },
   {
-    "revision": "367166d9eac1a5138e61",
-    "url": "/faceit-app/static/js/runtime-main.be5271c7.js"
+    "revision": "1341624919561a10d413",
+    "url": "/faceit-app/static/js/runtime-main.3c4afbf5.js"
   }
 ]);
