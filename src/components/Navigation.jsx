@@ -31,6 +31,9 @@ const Navigation = () => {
       <Link style={navStyle} to="/faceit-app/lavan">
         <li className="link">לבן</li>
       </Link>
+      <Link style={navStyle} to="/faceit-app/ariel">
+        <li className="link">מיותאריאל</li>
+      </Link>
     </ul>
   );
 };

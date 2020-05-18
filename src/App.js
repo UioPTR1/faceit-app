@@ -7,13 +7,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const PlayerProfile = lazy(() => import("./views/PlayerProfile"));
 
 function App() {
-  // let names = {
-  //   lior: "Lior",
-  //   hezi: "Hezi",
-  //   ayra: "Ayra",
-  //   itay: "Itay",
-  //   lavan: "Lavan"
-  // };
 
   return (
     <div className="App">

@@ -3,7 +3,8 @@ const IDS = {
   ayraID: "eb07ae0a-87c1-44c6-b348-ca18d5869ea4",
   heziID: "44f43251-739e-4c98-b2f9-dae3e0d42f9b",
   lavanID: "5153d825-9e29-408f-a772-d13375c78bc5",
-  itayID: "c4d82eac-dd80-4151-bac8-4580904cdcdb"
+  itayID: "c4d82eac-dd80-4151-bac8-4580904cdcdb",
+  arielID: "a2b3c0b6-4124-4a44-b84d-0bf6fc36a749"
 };
 
 export default IDS;
