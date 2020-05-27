@@ -4,18 +4,15 @@ import instance from "../axiosDefaults";
 const PlayerData = (id) => {
   let [playerData, setData] = React.useState(null);
   let [secondData, setSecondData] = React.useState(null);
-  console.log(id);
 
   const fetchLiorData = async () => {
     const request = await instance.get(`/players/${id.id}/stats/csgo`);
-    console.log(request.data);
 
     return request.data;
   };
 
   const fetchPlayerData = async () => {
     const request = await instance.get(`players/${id.id}`);
-    console.log(request.data);
     return request.data;
   };
 

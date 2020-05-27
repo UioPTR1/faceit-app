@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import { Link } from "react-router-dom";
+import IDS from "../playerIDS";
 
 const Navigation = () => {
   const navStyle = {
@@ -16,7 +17,15 @@ const Navigation = () => {
           <Logo />
         </Link>
       </li>
-      <Link style={navStyle} to="/faceit-app/lior">
+      {Object.keys(IDS).map((name) => {
+        let link = "/faceit-app/" + name;
+        return (
+          <Link style={navStyle} to={link}>
+            <li className="link">{name}</li>
+          </Link>
+        );
+      })}
+      {/* <Link style={navStyle} to="/faceit-app/lior">
         <li className="link">ליאור</li>
       </Link>
       <Link style={navStyle} to="/faceit-app/hezi">
@@ -33,7 +42,7 @@ const Navigation = () => {
       </Link>
       <Link style={navStyle} to="/faceit-app/ariel">
         <li className="link">מיותאריאל</li>
-      </Link>
+      </Link> */}
     </ul>
   );
 };
